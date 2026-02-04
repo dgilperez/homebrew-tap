@@ -8,7 +8,7 @@ class SureCli < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "./cmd/sure-cli"
+    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "."
   end
 
   test do
