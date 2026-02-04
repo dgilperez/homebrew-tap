@@ -1,8 +1,8 @@
 class SureCli < Formula
   desc "Agent-first CLI for Sure personal finance app"
   homepage "https://github.com/dgilperez/sure-cli"
-  url "https://github.com/dgilperez/sure-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "35ce1b4c66943fed77f3bceafeacc4dfb1b1bd12769c5be1751c85e6575a6a92"
+  url "https://github.com/dgilperez/sure-cli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a5fceab00eef14d5301a083b0da44f305ade5be819b163c0fa02c0aa31c3834e"
   license "MIT"
 
   depends_on "go" => :build
